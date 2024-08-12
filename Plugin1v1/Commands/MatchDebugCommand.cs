@@ -18,7 +18,7 @@ namespace Plugin1v1.Commands
         {
             if (arguments.Count != 1)
             {
-                response = "Nespravny format, pis komand takto: get_data [meno hraca]";
+                response = "Incorrect format: get_data [meno hraca]";
                 return false;
             }
 
